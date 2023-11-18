@@ -1,0 +1,186 @@
+<html>
+<head>
+<title>Data Warga Negara RI</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"></head>
+<body bgcolor="#333333">
+<form action="/cetak" enctype="multipart/form-data" method="post">
+<table width="638" height="960" border="1" align="center">
+  <tr>
+    <td height="94" valign="top" bgcolor="#CC6633"><font color="#FFFFFF"><br>
+      </font>
+      <blockquote>
+        <p>
+          <center>
+            <font color="#FFFFFF" size="+2">DATA WARGA NEGARA REPUBLIK INDONESIA</font>
+          </center>
+      </blockquote></td>
+  </tr>
+  <tr>
+    <td width="669" valign="top" bgcolor="#FFFFFF"><blockquote><p>
+  <p><font color="red">* Menginputkan data menggunakan huruf capital</Font></p>
+  <br>
+  <p> Nik  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;: <input type="text" name="nik"></p>
+  <p> Nama Lengkap &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;:  <input type="text" name="nama" size=40></p>
+ 
+  <p> Tempat/Tanggal Lahir :  <input type="text" name="tl" placeholder= Tempat>
+              <select name="tgl" placeholder= Tl>
+                   <option value="01">01</option>
+                      <option value="02">02</option>
+                      <option value="03">03</option>
+                      <option value="04">04</option>
+                      <option value="05">05</option>
+              <option value="06">06</option>
+                      <option value="07">07</option>
+                      <option value="08">08</option>
+                      <option value="09">09</option>
+                      <option value="10">10</option>
+              <option value="11">11</option>
+                      <option value="12">12</option>
+                      <option value="13">13</option>
+                      <option value="14">14</option>
+                      <option value="15">15</option>
+              <option value="16">16</option>
+                      <option value="17">17</option>
+                      <option value="18">18</option>
+                      <option value="19">19</option>
+                      <option value="20">20</option>
+              <option value="21">21</option>
+                      <option value="22">22</option>
+                      <option value="23">23</option>
+                      <option value="24">24</option>
+                      <option value="25">25</option>
+              <option value="26">26</option>
+              <option value="27">27</option>
+                      <option value="28">28</option>
+                      <option value="29">29</option>
+                      <option value="30">30</option>
+                      <option value="31">31</option>
+            </select>
+       
+        <select name="bln">
+                   <option value="01">01</option>
+                      <option value="02">02</option>
+                      <option value="03">03</option>
+                      <option value="04">04</option>
+                      <option value="05">05</option>
+              <option value="06">06</option>
+                      <option value="07">07</option>
+                      <option value="08">08</option>
+                      <option value="09">09</option>
+                      <option value="10">10</option>
+              <option value="11">11</option>
+                      <option value="12">12</option>
+            </select>
+
+        <input type="text" name="thn" placeholder=Tahun style="width: 60px;"></p>
+  
+  <p>Jenis Kelamin  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;:
+    <input type="radio" name="sex" value="LAKI-LAKI">LAKI-LAKI
+    <input type="radio" name="sex" value="PEREMPUAN">PEREMPUAN</p>
+  <p>Golongan Darah  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;:
+    <select name="darah">
+      <option value="A">A</option>
+      <option value="B">B</option>
+      <option value="AB">AB</option>
+      <option value="O">O</option>
+    </select>
+  </p>
+  <p> Alamat &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;:
+    <input type="text" name="alamat" size=40>
+  </p>
+  <p>RT     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;:
+    <select name="rt">
+                   <option value="01">01</option>
+                      <option value="02">02</option>
+                      <option value="03">03</option>
+                      <option value="04">04</option>
+                      <option value="05">05</option>
+              <option value="06">06</option>
+                      <option value="07">07</option>
+                      <option value="08">08</option>
+                      <option value="09">09</option>
+                      <option value="10">10</option>
+            </select></p>
+    <p>RW &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; :
+    <select name="rw">
+                  <option value="01">01</option>
+                      <option value="02">02</option>
+                      <option value="03">03</option>
+                      <option value="04">04</option>
+                      <option value="05">05</option>
+              <option value="06">06</option>
+                      <option value="07">07</option>
+                      <option value="08">08</option>
+                      <option value="09">09</option>
+                      <option value="10">10</option>
+            </select></p>
+  <p> Kel/Desa    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;:
+    <input type="text" name="desa">
+  </p>
+  <p> Kecamatan    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; :
+    <input type="text" name="kecamatan">
+  </p>
+  <p> Agama    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;:
+    <select name="agama">
+      <option value="ISLAM">ISLAM</option>
+      <option value="KRISTEN">KRISTEN</option>
+      <option value="KATOLIK">KATOLIK</option>
+      <option value="BUDHA">BUDHA</option>
+      <option value="HINDU">HINDU</option>
+    </select>
+  </p>
+  <p> Status &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; :
+    <input type="radio" name="status" value="BELUM KAWIN">BELUM KAWIN
+    <input type="radio" name="status" value="MENIKAH">MENIKAH</p>
+  <p> Pekerjaan     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; :
+    <input type="text" name="pekerjaan">
+  </p>
+  <p> Kewarganegaraan &nbsp; &nbsp; &nbsp;: <select name="warganegara">
+      <option value="WNI">WNI</option>
+      <option value="WNA">WNA</option>
+    </select>
+  <p> <input name="MAX_FILE_SIZE" type="hidden" value="3000000" />
+    File Name &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  : <input name="userfile" id= "userfile" type="file" />
+    </p>
+  </p>
+</blockquote>
+<br>
+
+<!-- <script>
+    document.addEventListener('DOMContentLoaded', function() {
+    var cetakButton = document.querySelector('input[type="submit"]');
+    cetakButton.addEventListener('click', function(event) {
+      // Prevent the default form submission
+      event.preventDefault();
+      // Call the collectData function
+      fetch('/add-to-order', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                name: foodName,
+                price: price,
+            }),
+        })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Failed to add item to order');
+            }
+            // Refresh order details after adding an item
+            updateOrderDetails();
+        })
+        .catch(error => {
+            console.error('Error:', error);
+        });
+    });
+  });
+</script> -->
+<p> <center><input type="submit" value="CETAK">
+<input type="reset" value="BATAL"></center></p>
+</td>
+  </tr>
+</table>
+</form>
+</body>
+</html>
